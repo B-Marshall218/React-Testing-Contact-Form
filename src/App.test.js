@@ -5,3 +5,11 @@ import App from "./App";
 test("renders App without crashing", () => {
   render(<App />);
 });
+
+// test("renders the app header", () => {
+//   const container = render(<App />);
+
+//   const firstInput = container.getByPlaceholderText(/edd/i);
+
+//   expect(firstInput).toBeInTheDocument();
+// })
